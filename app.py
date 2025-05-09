@@ -13,13 +13,15 @@ def hello_world():
     return 'Hello, World!'
 
 # weitere Route definieren
-@app.route('/hello/')
+@app.route('/hello')
 def hello():
-    return "Hallo"
+    return "<h1>Hallo</h1>"
 
 ## TODO: Definiert eine Route auf den Pfad /25-01 mit einer Funktion, die "Hallo Kurs 25-01" zurückgibt
-
+@app.route('/25-01')
+def kurs():
+    return "<p>Hallo Kurs 25-01</p>"
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
