@@ -25,3 +25,6 @@ pip freeze > requirements.txt
 - Adde deine Veränderungen mit `git add .` und committe sie mit `git commit -m "added venv with flask dependency"`
 - Wenn wir das pushen wollen auf Github, lege erst ein Repository auf Github an und dann füge per `git remote add origin <Link zum Github-Repo>` den Remote-Branch hinzu und mach dann ein `git push -u origin <Angabe des Branches>`, damit wir den upstream einmal hinzufügen. 
 Achtung: Wir müssen nach dem Hinzufügen des Remote-Branches immer erst den Upstream hinzufügen mit -u origin ..
+5. Erstelle die flask-App
+- Lege eine neue Python-Datei im Terminal an mit `touch app.py` 
+- 
